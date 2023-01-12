@@ -590,9 +590,9 @@ export default {
       equipment_maintenance_tab: [
         {
           text: "Combat System Operational Sequencing System (CSOSS)",
-          value: "https://nsdsa.dc3n.navy.mil/csoss",
+          value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx",
           tab_title: "Equipment/Maintenance",
-          legend: " * †"
+          legend: " * "
         },
         {
           text: "CRYPTOGRAPHIC Products and Services",
@@ -984,7 +984,7 @@ export default {
         },
         {
           text: "Combat System Operational Sequencing System (CSOSS)",
-          value: "https://nsdsa.dc3n.navy.mil/csoss",
+          value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx",
           tab_title: "Equipment/Maintenance"
         },
         {

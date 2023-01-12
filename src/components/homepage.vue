@@ -801,7 +801,7 @@ export default {
         { text: "MyNavy Career Center (MNCC)", value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/", tab_title: "Personnel/Manpower", legend: "" }
       ],
       equipment_maintenance_tab: [
-        { text: "Combat System Operational Sequencing System (CSOSS)", value: "https://nsdsa.dc3n.navy.mil/csoss", tab_title: "Equipment/Maintenance", legend: " * †" },
+        { text: "Combat System Operational Sequencing System (CSOSS)", value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx", tab_title: "Equipment/Maintenance", legend: " * " },
         { text: "CRYPTOGRAPHIC Products and Services", value: "https://infosec.navy.mil/crypto", tab_title: "Equipment/Maintenance", legend: " *" },
         { text: "EOSS Feedback Requests", value: "https://navlogtd.navy.mil/EossFeedbackWeb/", tab_title: "Equipment/Maintenance", legend: " *" },
         { text: "Fleet Cosal Feedback Request (FCFBR)", value: "https://ds-itsmweb.dc3n.navy.mil/kinetic/DisplayPage?name=FleetCOSAL_Request", tab_title: "Equipment/Maintenance", legend: " *" },
@@ -883,7 +883,7 @@ export default {
         { text: "Navy Standard Integrated Personnel System (NSIPS)", value: "https://nsipsprod.nmci.navy.mil/", tab_title: "Personnel/Manpower" },
         { text: "MyNavy Career Center (MNCC)", value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/", tab_title: "Personnel/Manpower" },
 
-        { text: "Combat System Operational Sequencing System (CSOSS)", value: "https://nsdsa.dc3n.navy.mil/csoss", tab_title: "Equipment/Maintenance" },
+        { text: "Combat System Operational Sequencing System (CSOSS)", value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx", tab_title: "Equipment/Maintenance" },
         { text: "CRYPTOGRAPHIC Products and Services", value: "https://infosec.navy.mil/crypto", tab_title: "Equipment/Maintenance" },
         { text: "EOSS Feedback Requests", value: "https://navlogtd.navy.mil/EossFeedbackWeb/", tab_title: "Equipment/Maintenance" },
         { text: "Fleet Cosal Feedback Request (FCFBR)", value: "https://ds-itsmweb.dc3n.navy.mil/kinetic/DisplayPage?name=FleetCOSAL_Request", tab_title: "Equipment/Maintenance" },
