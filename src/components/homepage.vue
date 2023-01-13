@@ -837,7 +837,7 @@ export default {
       ],
       ordnance_tab: [
         { text: "All Weapons Information System (AWIS)", value: "https://awis.navair.navy.mil/awis/gateway/ncnvismodules.asp", tab_title: "Ordnance", legend: " * †" },
-        { text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.", value: "mailto:KYPT_WA_LIDOLInfoDesk@navy.mil", tab_title: "Ordnance", legend: " †" },
+        { text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.", value: "mailto:LIDOLinfodesk@us.navy.mil", tab_title: "Ordnance", legend: " †" },
         { text: "Existing LIDOL users click here to access the site.", value: "https://lidol.nmci.navy.mil/", tab_title: "Ordnance", legend: " * †" },
         { text: "Naval Ordnance Maintenance Management Program (NOMMP)", value: "https://awis.navair.navy.mil/redshirt/index.html", tab_title: "Ordnance", legend: " †" },
         { text: "Public NOSSA Website", value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx", tab_title: "Ordnance", legend: "" },
@@ -916,7 +916,7 @@ export default {
         { text: "Navy Personnel Command (NPC)", value: "http://www.npc.navy.mil/", tab_title: "Training and Education" },
 
         { text: "All Weapons Information System (AWIS)", value: "https://awis.navair.navy.mil/awis/gateway/ncnvismodules.asp", tab_title: "Ordnance" },
-        { text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.", value: "mailto:KYPT_WA_LIDOLInfoDesk@navy.mil", tab_title: "Ordnance" },
+        { text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.", value: "mailto:LIDOLinfodesk@us.navy.mil", tab_title: "Ordnance" },
         { text: "Existing LIDOL users click here to access the site.", value: "https://lidol.nmci.navy.mil/", tab_title: "Ordnance" },
         { text: "Naval Ordnance Maintenance Management Program (NOMMP)", value: "https://awis.navair.navy.mil/redshirt/index.html", tab_title: "Ordnance" },
         { text: "Public NOSSA Website", value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx", tab_title: "Ordnance" },
