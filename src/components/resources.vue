@@ -775,7 +775,7 @@ export default {
         },
         {
           text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.",
-          value: "mailto:KYPT_WA_LIDOLInfoDesk@navy.mil",
+          value: "mailto:LIDOLinfodesk@us.navy.mil",
           tab_title: "Ordnance",
           legend: " †"
         },
