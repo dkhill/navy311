@@ -836,12 +836,27 @@ export default {
         { text: "Navy Personnel Command (NPC)", value: "https://www.mynavyhr.navy.mil/Navy-Personnel-Command/", tab_title: "Training and Education", legend: "" }
       ],
       ordnance_tab: [
-        { text: "All Weapons Information System (AWIS)", value: "https://awis.navair.navy.mil/awis/gateway/ncnvismodules.asp", tab_title: "Ordnance", legend: " * †" },
-        { text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.", value: "mailto:LIDOLinfodesk@us.navy.mil", tab_title: "Ordnance", legend: " †" },
-        { text: "Existing LIDOL users click here to access the site.", value: "https://lidol.nmci.navy.mil/", tab_title: "Ordnance", legend: " * †" },
-        { text: "Naval Ordnance Maintenance Management Program (NOMMP)", value: "https://awis.navair.navy.mil/redshirt/index.html", tab_title: "Ordnance", legend: " †" },
-        { text: "Public NOSSA Website", value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx", tab_title: "Ordnance", legend: "" },
-        { text: "Restricted NOSSA Website", value: "https://nossa.dc3n.navy.mil/", tab_title: "Ordnance", legend: " *" }
+        {
+          text: "All Weapons Information System (AWIS)", value: "https://awis.navair.navy.mil/awis/gateway/ncnvismodules.asp", tab_title: "Ordnance", legend: " * †"
+        },
+        {
+          text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.", value: "mailto:LIDOLinfodesk@us.navy.mil", tab_title: "Ordnance", legend: " †"
+        },
+        {
+          text: "Existing LIDOL users click here to access the site.", value: "https://lidol.nmci.navy.mil/", tab_title: "Ordnance", legend: " * †"
+        },
+        {
+          text: "Naval Ordnance Maintenance Management Program (NOMMP)", value: "https://awis.navair.navy.mil/redshirt/index.html", tab_title: "Ordnance", legend: " †"
+        },
+        {
+          text: "Public NOSSA Website", value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx", tab_title: "Ordnance", legend: ""
+        },
+        {
+          text: "Restricted NOSSA Website", value: "https://nossa.dc3n.navy.mil/", tab_title: "Ordnance", legend: " *"
+        },
+        {
+          text: "Navy Small Arms (SA) and Night Vision-Electro Opticals (NV-EO) Registry", value: "https://midway.dc3n.navy.mil", tab_title: "Ordnance", legend: " * †"
+        }
       ],
       medical_tab: [
         { text: "Bureau of Medicine and Surgery (BUMED)", value: "https://www.med.navy.mil/Pages/Default.aspx", tab_title: "Medical", legend: "" },
@@ -921,6 +936,7 @@ export default {
         { text: "Naval Ordnance Maintenance Management Program (NOMMP)", value: "https://awis.navair.navy.mil/redshirt/index.html", tab_title: "Ordnance" },
         { text: "Public NOSSA Website", value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx", tab_title: "Ordnance" },
         { text: "Restricted NOSSA Website", value: "https://nossa.dc3n.navy.mil/", tab_title: "Ordnance" },
+        { text: "Navy Small Arms (SA) and Night Vision-Electro Opticals (NV-EO) Registry", value: "https://midway.dc3n.navy.mil", tab_title: "Ordnance" },
 
         { text: "Bureau of Medicine and Surgery (BUMED)", value: "https://www.med.navy.mil/Pages/Default.aspx", tab_title: "Medical" },
         { text: "Medical Electronic Library", value: "https://www.med.navy.mil/sites/nmcp/Dept/SitePages/Library/NMeL.aspx", tab_title: "Medical" },

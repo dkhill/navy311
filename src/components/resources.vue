@@ -802,7 +802,14 @@ export default {
           value: "https://nossa.dc3n.navy.mil/",
           tab_title: "Ordnance",
           legend: " *"
+        },
+        {
+          text: "Navy Small Arms (SA) and Night Vision-Electro Opticals (NV-EO) Registry",
+          value: "https://midway.dc3n.navy.mil",
+          tab_title: "Ordnance",
+          legend: " *"
         }
+
       ],
       medical_tab: [
         {
@@ -1156,6 +1163,11 @@ export default {
         {
           text: "Restricted NOSSA Website",
           value: "https://nossa.dc3n.navy.mil/",
+          tab_title: "Ordnance"
+        },
+        {
+          text: "Navy Small Arms (SA) and Night Vision-Electro Opticals (NV-EO) Registry",
+          value: "https://midway.dc3n.navy.mil",
           tab_title: "Ordnance"
         },
         {
