@@ -1,8 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(.+\.)?navy311\.fwcc4u\.com [NC]
-RewriteRule .*\.(jp(e)?g|gif|bmp|png)$ https://imgur.com/ZtXiCBw.gif [L,R]
-DirectoryIndex index.html
-RewriteCond %{HTTP_HOST} ^navy311\.fwcc4u\.com$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.navy311\.fwcc4u\.com$
-RewriteRule ^home$ "https\:\/\/navy311\.fwcc4u\.com\/" [R=301,L]
