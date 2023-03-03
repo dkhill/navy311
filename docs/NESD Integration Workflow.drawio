@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net" modified="2023-02-09T20:27:51.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="JL5TkO2hvJNG_ktrXBV2" version="20.8.19" type="github" pages="5">
+  <diagram name="Overview" id="aF4G5Hs_lMoh60DQ722R">
+    <mxGraphModel dx="936" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-26" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;labelBackgroundColor=#CCCCFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="10" y="10" width="1080" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="9KmsIKsTsXMhggBtWNxH-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;NESD Inbound Operations for Work History&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="30" width="1060" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-4" value="RestAPI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" parent="1" source="1lb5UFgHKyQ05DryIwbp-1" target="1lb5UFgHKyQ05DryIwbp-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-1" value="NESD RestAPI&lt;br&gt;WHU" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-5" value="DSO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" parent="1" source="1lb5UFgHKyQ05DryIwbp-2" target="1lb5UFgHKyQ05DryIwbp-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-2" value="Navy 311&lt;br&gt;WHU RA form" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1lb5UFgHKyQ05DryIwbp-3" target="1lb5UFgHKyQ05DryIwbp-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-11" value="DSO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="1lb5UFgHKyQ05DryIwbp-10" vertex="1" connectable="0">
+          <mxGeometry x="0.2235" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-3" value="ECRM Master WH Diary&lt;br&gt;Field" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;NESD Outbound Operations for Work History&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="290" width="1060" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-16" value="DSO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" parent="1" source="1lb5UFgHKyQ05DryIwbp-8" target="1lb5UFgHKyQ05DryIwbp-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-23" value="Active Link Push Submit Button" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=1;fillColor=#e1d5e7;strokeColor=#9673a6;labelBackgroundColor=none;" parent="1" source="1lb5UFgHKyQ05DryIwbp-8" target="1lb5UFgHKyQ05DryIwbp-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-8" value="Navy 311&lt;br&gt;GDSC&lt;br&gt;Assignment to NESD" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-9" value="GDSC&lt;br&gt;Work Histry&lt;br&gt;Diary Field" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="970" y="100" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-14" value="RestAPI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" parent="1" source="1lb5UFgHKyQ05DryIwbp-12" target="1lb5UFgHKyQ05DryIwbp-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-19" value="Push Fields&amp;nbsp; OR DSO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;" parent="1" source="1lb5UFgHKyQ05DryIwbp-12" target="1lb5UFgHKyQ05DryIwbp-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-12" value="ECRM SR Master" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-13" value="NESD SR Inbound" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-21" value="RestAPI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;" parent="1" source="1lb5UFgHKyQ05DryIwbp-17" target="1lb5UFgHKyQ05DryIwbp-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-17" value="ECRM Work History Update Form" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-20" value="NESD WHU Inbound" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="980" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-22" value="GDSC WHU" style="whiteSpace=wrap;html=1;aspect=fixed;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1lb5UFgHKyQ05DryIwbp-25" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Navy 311 Shared Data Environment - High Level&lt;br&gt;Rest API Process Flow Diagram&lt;br&gt;Created: 09/22/2022&lt;br&gt;David K Hill, Navy 311, NWIC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;shadow=1;align=left;spacingTop=7;spacingLeft=12;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="740" y="730" width="340" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sC5wA8O8KYdUImDDI3Hu" name="GDSC to NESD SR">
+    <mxGraphModel dx="936" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j8QyTdGpmIRxtLQ3gYxX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;labelBackgroundColor=#CCCCFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="1080" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="HLRCAyz79IdVhcycPJ9v-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Navy 311 Shared Data Environment - High Level&lt;br&gt;Rest API Process Flow Diagram&lt;br&gt;Created: 09/22/2022&lt;br&gt;David K Hill, Navy 311, NWIC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;align=left;spacingTop=7;spacingLeft=12;labelBorderColor=none;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="740" y="730" width="340" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7bnrIDG-UyBGoTIxkSTi" name="GDSC to NESD WHU">
+    <mxGraphModel dx="936" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AxfsA7OQwhY_0ePg4ZVv-2" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;labelBackgroundColor=#CCCCFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="1080" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="AxfsA7OQwhY_0ePg4ZVv-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Navy 311 Shared Data Environment - High Level&lt;br&gt;Rest API Process Flow Diagram&lt;br&gt;Created: 09/22/2022&lt;br&gt;David K Hill, Navy 311, NWIC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;align=left;spacingTop=7;spacingLeft=12;labelBorderColor=none;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="740" y="730" width="340" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="NESD to GDSC SR" id="O2B5uFYAHmMbei3pe0Dq">
+    <mxGraphModel dx="936" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="meKWzcMqz4QlfSiUv-CX-0" />
+        <mxCell id="meKWzcMqz4QlfSiUv-CX-1" parent="meKWzcMqz4QlfSiUv-CX-0" />
+        <mxCell id="LeYCOj-eYN1Rtl0iuyLE-1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;labelBackgroundColor=#CCCCFF;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="meKWzcMqz4QlfSiUv-CX-1">
+          <mxGeometry x="10" y="10" width="1080" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="LeYCOj-eYN1Rtl0iuyLE-0" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Navy 311 Shared Data Environment - High Level&lt;br&gt;Rest API Process Flow Diagram&lt;br&gt;Created: 09/22/2022&lt;br&gt;David K Hill, Navy 311, NWIC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;align=left;spacingTop=7;spacingLeft=12;labelBorderColor=none;fontColor=#333333;" vertex="1" parent="meKWzcMqz4QlfSiUv-CX-1">
+          <mxGeometry x="740" y="730" width="340" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="NESD to GDSC WHU" id="vcmquoF8Qose12GvA6PZ">
+    <mxGraphModel dx="936" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="NyKm2-rGIAxsFZnfGfpN-0" />
+        <mxCell id="NyKm2-rGIAxsFZnfGfpN-1" parent="NyKm2-rGIAxsFZnfGfpN-0" />
+        <mxCell id="0f6CJpGm9oxWNxyZTUy3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=14;labelBackgroundColor=#CCCCFF;fillColor=#dae8fc;strokeColor=#6c8ebf;aspect=fixed;" vertex="1" parent="NyKm2-rGIAxsFZnfGfpN-1">
+          <mxGeometry x="10" y="10" width="1080" height="830" as="geometry" />
+        </mxCell>
+        <mxCell id="0f6CJpGm9oxWNxyZTUy3-0" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Navy 311 Shared Data Environment - High Level&lt;br&gt;Rest API Process Flow Diagram&lt;br&gt;Created: 09/22/2022&lt;br&gt;David K Hill, Navy 311, NWIC&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;shadow=1;align=left;spacingTop=7;spacingLeft=12;labelBorderColor=none;fontColor=#333333;" vertex="1" parent="NyKm2-rGIAxsFZnfGfpN-1">
+          <mxGeometry x="740" y="730" width="340" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
