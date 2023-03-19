@@ -787,179 +787,779 @@ export default {
       },
 
       personel_manpower_tab: [
-        { text: "Career Management System - Interactive Detailing (CMS-ID)", value: "https://www.cmsid.navy.mil/", tab_title: "Personnel/Manpower", legend: " *" },
-        { text: "Defense Travel System (DTS)", value: "https://dtsproweb.defensetravel.osd.mil/dts-app/pubsite/all/view/", tab_title: "Personnel/Manpower", legend: " *" },
-        { text: "DoN Travel and Purchase Card Program Office", value: "https://www.navsup.navy.mil/ccpmd", tab_title: "Personnel/Manpower", legend: "" },
-        { text: "Fleet and Family Support Center", value: "https://www.cnic.navy.mil/ffr/family_readiness.html", tab_title: "Personnel/Manpower", legend: "" },
-        { text: "Intelligence Community Wounded Warrior Program (ICWWP)", value: "http://www.dia.mil/Careers/Wounded-Warrior-Internship-Program/", tab_title: "Personnel/Manpower", legend: "" },
-        { text: "MyNavy HR", value: "https://www.mynavyhr.navy.mil/", tab_title: "Personnel/Manpower", legend: "" },
-        { text: "Navy Civilian Human Resources", value: "http://www.secnav.navy.mil/donhr", tab_title: "Personnel/Manpower", legend: "" },
-        { text: "Navy Household Goods Help Desk", value: "https://www.navsup.navy.mil/household/", tab_title: "Personnel/Manpower", legend: "" },
-        { text: "Navy Marine Corps Relief Society", value: "http://www.nmcrs.org/", tab_title: "Personnel/Manpower", legend: "" },
-        { text: "Navy Personnel Command (NPC)", value: "https://www.mynavyhr.navy.mil/Navy-Personnel-Command/ ", tab_title: "Personnel/Manpower", legend: "" },
-        { text: "Navy Standard Integrated Personnel System (NSIPS)", value: "https://nsipsprod.nmci.navy.mil/", tab_title: "Personnel/Manpower", legend: " *" },
-        { text: "MyNavy Career Center (MNCC)", value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/", tab_title: "Personnel/Manpower", legend: "" }
+        {
+          text: "Career Management System - Interactive Detailing (CMS-ID)",
+          value: "https://www.cmsid.navy.mil/",
+          tab_title: "Personnel/Manpower",
+          legend: " *"
+        },
+        {
+          text: "Defense Travel System (DTS)",
+          value: "https://dtsproweb.defensetravel.osd.mil/dts-app/pubsite/all/view/",
+          tab_title: "Personnel/Manpower",
+          legend: " *"
+        },
+        {
+          text: "DoN Travel and Purchase Card Program Office",
+          value: "https://www.navsup.navy.mil/ccpmd",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "Fleet and Family Support Center",
+          value: "https://www.cnic.navy.mil/ffr/family_readiness.html",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "Intelligence Community Wounded Warrior Program (ICWWP)",
+          value: "http://www.dia.mil/Careers/Wounded-Warrior-Internship-Program/",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "MyNavy HR",
+          value: "https://www.mynavyhr.navy.mil/",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "Navy Civilian Human Resources",
+          value: "http://www.secnav.navy.mil/donhr",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "Navy Household Goods Help Desk",
+          value: "https://www.navsup.navy.mil/household/",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "Navy Marine Corps Relief Society",
+          value: "http://www.nmcrs.org/",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "Navy Personnel Command (NPC)",
+          value: "https://www.mynavyhr.navy.mil/Navy-Personnel-Command/ ",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "Navy Standard Integrated Personnel System (NSIPS)",
+          value: "https://nsipsprod.nmci.navy.mil/",
+          tab_title: "Personnel/Manpower",
+          legend: " *"
+        },
+        {
+          text: "MyNavy Career Center (MNCC)",
+          value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        },
+        {
+          text: "MyNavy Portal (MNP)",
+          value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/",
+          tab_title: "Personnel/Manpower",
+          legend: ""
+        }
       ],
       equipment_maintenance_tab: [
-        { text: "Combat System Operational Sequencing System (CSOSS)", value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx", tab_title: "Equipment/Maintenance", legend: " * " },
-        { text: "CRYPTOGRAPHIC Products and Services", value: "https://infosec.navy.mil/crypto", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "EOSS Feedback Requests", value: "https://navlogtd.navy.mil/EossFeedbackWeb/", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "Fleet Cosal Feedback Request (FCFBR)", value: "https://ds-itsmweb.dc3n.navy.mil/kinetic/DisplayPage?name=FleetCOSAL_Request", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "Military Engineering Data Asset Locator System (MEDALS)", value: "https://www.logisticsinformationservice.dla.mil/medals/Default.aspx", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "Naval Safety Center", value: "https://navalsafetycenter.navy.mil/", tab_title: "Equipment/Maintenance", legend: "" },
-        { text: "Navy Data Environment (NDE)", value: "https://www.nde.navy.mil/", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "NTCSS/OOMA Support Request", value: "https://neitsm.dc3n.navy.mil/arsys", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "Revised Alternative Dataflow Web (RADWeb)", value: "https://radpac.cdmd.navy.mil/", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "Sailor 2.1", value: "https://sailor.navy.mil/", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "Sailor to Engineer", value: "https://help.phdnswc.nmci.navy.mil/", tab_title: "Equipment/Maintenance", legend: " * †" },
-        { text: "Access Ships' 3M Information System web site", value: "https://oars.nslc.navy.mil/oars/docs/index.html", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "View/Download the Ships' 3-M Manual (NAVSEA Instruction 4790.8D, 17 June 2021)", value: "/Documents/Ships_3m_manual_04790.008D.pdf", tab_title: "Equipment/Maintenance" },
-        { text: "Download the Ships' 3M Manual Change/Correction Request form", value: "/Documents/Ships 3-M_Manual_Change_Correction_Request.pdf", tab_title: "Equipment/Maintenance" },
-        { text: "NAVWAR Technical Support", value: "https://supportweb.sscno.nmci.navy.mil/", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "Technical Data Management Information System (TDMIS)", value: "https://mercury.tdmis.navy.mil/", tab_title: "Equipment/Maintenance", legend: " *" },
-        { text: "Technical Manual Deficiency Evaluation Report (TMDER)", value: "https://nsdsa.dc3n.navy.mil/", tab_title: "Equipment/Maintenance", legend: " * †" }
+        {
+          text: "Combat System Operational Sequencing System (CSOSS)",
+          value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx",
+          tab_title: "Equipment/Maintenance",
+          legend: " * "
+        },
+        {
+          text: "CRYPTOGRAPHIC Products and Services",
+          value: "https://infosec.navy.mil/crypto",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "EOSS Feedback Requests",
+          value: "https://navlogtd.navy.mil/EossFeedbackWeb/",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "Fleet Cosal Feedback Request (FCFBR)",
+          value: "https://ds-itsmweb.dc3n.navy.mil/kinetic/DisplayPage?name=FleetCOSAL_Request",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "Military Engineering Data Asset Locator System (MEDALS)",
+          value: "https://www.logisticsinformationservice.dla.mil/medals/Default.aspx",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "Naval Safety Center",
+          value: "https://navalsafetycenter.navy.mil/",
+          tab_title: "Equipment/Maintenance",
+          legend: ""
+        },
+        {
+          text: "Navy Data Environment (NDE)",
+          value: "https://www.nde.navy.mil/",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "NTCSS/OOMA Support Request",
+          value: "https://neitsm.dc3n.navy.mil/arsys",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "Revised Alternative Dataflow Web (RADWeb)",
+          value: "https://radpac.cdmd.navy.mil/",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "Sailor 2.1",
+          value: "https://sailor.navy.mil/",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "Sailor to Engineer",
+          value: "https://help.phdnswc.nmci.navy.mil/",
+          tab_title: "Equipment/Maintenance",
+          legend: " * †"
+        },
+        {
+          text: "Access Ships' 3M Information System web site",
+          value: "https://oars.nslc.navy.mil/oars/docs/index.html",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "View/Download the Ships' 3-M Manual (NAVSEA Instruction 4790.8D, 17 June 2021)",
+          value: "/Documents/Ships_3m_manual_04790.008D.pdf",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Download the Ships' 3M Manual Change/Correction Request form",
+          value: "/Documents/Ships 3-M_Manual_Change_Correction_Request.pdf",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "NAVWAR Technical Support",
+          value: "https://supportweb.sscno.nmci.navy.mil/",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "Technical Data Management Information System (TDMIS)",
+          value: "https://mercury.tdmis.navy.mil/",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "Technical Manual Deficiency Evaluation Report (TMDER)",
+          value: "https://nsdsa.dc3n.navy.mil/",
+          tab_title: "Equipment/Maintenance",
+          legend: " * †"
+        }
       ],
       supply_and_logistics_tab: [
-        { text: "LogTool", value: "http://logtool.net/", tab_title: "Supply and Logistics", legend: "" },
-        { text: "Naval Supply Systems Command", value: "https://www.navsup.navy.mil/navsup", tab_title: "Supply and Logistics", legend: "" },
-        { text: "One-Touch", value: "https://www.onetouch.navy.mil/", tab_title: "Supply and Logistics", legend: " *" },
-        { text: "Priority Material Office - Integrated Supply Information System", value: "https://pmohq.nmci.navy.mil/", tab_title: "Supply and Logistics", legend: "" }
+        {
+          text: "LogTool",
+          value: "http://logtool.net/",
+          tab_title: "Supply and Logistics",
+          legend: ""
+        },
+        {
+          text: "Naval Supply Systems Command",
+          value: "https://www.navsup.navy.mil/navsup",
+          tab_title: "Supply and Logistics",
+          legend: ""
+        },
+        {
+          text: "One-Touch",
+          value: "https://www.onetouch.navy.mil/",
+          tab_title: "Supply and Logistics",
+          legend: " *"
+        },
+        {
+          text: "Priority Material Office - Integrated Supply Information System",
+          value: "https://pmohq.nmci.navy.mil/",
+          tab_title: "Supply and Logistics",
+          legend: ""
+        }
       ],
       training_and_education_tab: [
-        { text: "Defense Acquisition University (DAU)", value: "https://www.dau.edu/", tab_title: "Training and Education", legend: "" },
-        { text: "MyNavy HR", value: "https://www.mynavyhr.navy.mil/", tab_title: "Training and Education", legend: "" },
-        { text: "MyNavy Portal", value: "https://my.navy.mil/", tab_title: "Training and Education", legend: "*" },
-        { text: "Naval Air Warfare Center Training Systems Division (NAWCTSD)", value: "http://www.navair.navy.mil/nawctsd/", tab_title: "Training and Education", legend: "" },
-        { text: "Naval Education and Training Command (NETC)", value: "https://www.netc.navy.mil/", tab_title: "Training and Education", legend: "" },
-        { text: "Navy Doctrine Library System (NDLS)", value: "https://doctrine.navy.mil", tab_title: "Training and Education", legend: " *" },
-        { text: "Navy Flying Hour Projection System (FHPS) Access Request", value: "https://www.nslc.navsea.navy.mil/FHP/FHPS_Access_Request.pdf", tab_title: "Training and Education", legend: "" },
-        { text: "Navy Personnel Command (NPC)", value: "https://www.mynavyhr.navy.mil/Navy-Personnel-Command/", tab_title: "Training and Education", legend: "" }
+        {
+          text: "Defense Acquisition University (DAU)",
+          value: "https://www.dau.edu/",
+          tab_title: "Training and Education",
+          legend: ""
+        },
+        {
+          text: "MyNavy HR",
+          value: "https://www.mynavyhr.navy.mil/",
+          tab_title: "Training and Education",
+          legend: ""
+        },
+        {
+          text: "MyNavy Portal",
+          value: "https://my.navy.mil/",
+          tab_title: "Training and Education",
+          legend: "*"
+        },
+        {
+          text: "Naval Air Warfare Center Training Systems Division (NAWCTSD)",
+          value: "http://www.navair.navy.mil/nawctsd/",
+          tab_title: "Training and Education",
+          legend: ""
+        },
+        {
+          text: "Naval Education and Training Command (NETC)",
+          value: "https://www.netc.navy.mil/",
+          tab_title: "Training and Education",
+          legend: ""
+        },
+        {
+          text: "Navy Doctrine Library System (NDLS)",
+          value: "https://doctrine.navy.mil",
+          tab_title: "Training and Education",
+          legend: " *"
+        },
+        {
+          text: "Navy Flying Hour Projection System (FHPS) Access Request",
+          value: "https://www.nslc.navsea.navy.mil/FHP/FHPS_Access_Request.pdf",
+          tab_title: "Training and Education",
+          legend: ""
+        },
+        {
+          text: "Navy Personnel Command (NPC)",
+          value: "https://www.mynavyhr.navy.mil/Navy-Personnel-Command/",
+          tab_title: "Training and Education",
+          legend: ""
+        },
+        {
+          text: "MyNavy Portal (MNP)",
+          value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/",
+          tab_title: "Training and Education",
+          legend: ""
+        }
+
       ],
       ordnance_tab: [
         {
-          text: "All Weapons Information System (AWIS)", value: "https://awis.navair.navy.mil/awis/gateway/ncnvismodules.asp", tab_title: "Ordnance", legend: " * †"
+          text: "All Weapons Information System (AWIS)",
+          value: "https://awis.navair.navy.mil/awis/gateway/ncnvismodules.asp",
+          tab_title: "Ordnance",
+          legend: " * †"
         },
         {
-          text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.", value: "mailto:LIDOLinfodesk@us.navy.mil", tab_title: "Ordnance", legend: " †"
+          text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.",
+          value: "mailto:LIDOLinfodesk@us.navy.mil",
+          tab_title: "Ordnance",
+          legend: " †"
         },
         {
-          text: "Existing LIDOL users click here to access the site.", value: "https://lidol.nmci.navy.mil/", tab_title: "Ordnance", legend: " * †"
+          text: "Existing LIDOL users click here to access the site.",
+          value: "https://lidol.nmci.navy.mil/",
+          tab_title: "Ordnance",
+          legend: " * †"
         },
         {
-          text: "Naval Ordnance Maintenance Management Program (NOMMP)", value: "https://awis.navair.navy.mil/redshirt/index.html", tab_title: "Ordnance", legend: " †"
+          text: "Naval Ordnance Maintenance Management Program (NOMMP)",
+          value: "https://awis.navair.navy.mil/redshirt/index.html",
+          tab_title: "Ordnance",
+          legend: " †"
         },
         {
-          text: "Public NOSSA Website", value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx", tab_title: "Ordnance", legend: ""
+          text: "Public NOSSA Website",
+          value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx",
+          tab_title: "Ordnance",
+          legend: ""
         },
         {
-          text: "Restricted NOSSA Website", value: "https://nossa.dc3n.navy.mil/", tab_title: "Ordnance", legend: " *"
+          text: "Restricted NOSSA Website",
+          value: "https://nossa.dc3n.navy.mil/",
+          tab_title: "Ordnance",
+          legend: " *"
         },
         {
-          text: "Navy Small Arms (SA) and Night Vision-Electro Opticals (NV-EO) Registry", value: "https://midway.dc3n.navy.mil", tab_title: "Ordnance", legend: " * †"
+          text: "Navy Small Arms (SA) and Night Vision-Electro Opticals (NV-EO) Registry",
+          value: "https://midway.dc3n.navy.mil",
+          tab_title: "Ordnance",
+          legend: " * †"
         }
       ],
       medical_tab: [
-        { text: "Bureau of Medicine and Surgery (BUMED)", value: "https://www.med.navy.mil/Pages/Default.aspx", tab_title: "Medical", legend: "" },
-        { text: "Medical Electronic Library", value: "https://www.med.navy.mil/sites/nmcp/Dept/SitePages/Library/NMeL.aspx", tab_title: "Medical", legend: "" },
-        { text: "Naval Medical Logistics Command (NAVMEDLOGCOM)", value: "http://www.med.navy.mil/sites/nmlc/", tab_title: "Medical", legend: "" },
-        { text: "TRICARE", value: "https://www.tricare.mil/", tab_title: "Medical", legend: "" }
+        {
+          text: "Bureau of Medicine and Surgery (BUMED)",
+          value: "https://www.med.navy.mil/Pages/Default.aspx",
+          tab_title: "Medical",
+          legend: ""
+        },
+        {
+          text: "Medical Electronic Library",
+          value: "https://www.med.navy.mil/sites/nmcp/Dept/SitePages/Library/NMeL.aspx",
+          tab_title: "Medical",
+          legend: ""
+        },
+        {
+          text: "Naval Medical Logistics Command (NAVMEDLOGCOM)",
+          value: "http://www.med.navy.mil/sites/nmlc/",
+          tab_title: "Medical",
+          legend: ""
+        },
+        {
+          text: "TRICARE",
+          value: "https://www.tricare.mil/",
+          tab_title: "Medical",
+          legend: ""
+        }
       ],
       installations_facilities_tab: [
-        { text: "Commander, Navy Installations (CNIC)", value: "https://www.cnic.navy.mil/", tab_title: "Installations / Facilities", legend: "" },
-        { text: "Naval Facilities Command (NAVFAC)", value: "http://www.navfac.navy.mil/", tab_title: "Installations / Facilities", legend: "" },
-        { text: "Navy Housing", value: "http://www.cnic.navy.mil/ffr/housing.html", tab_title: "Installations / Facilities", legend: "" }
+        {
+          text: "Commander, Navy Installations (CNIC)",
+          value: "https://www.cnic.navy.mil/",
+          tab_title: "Installations / Facilities",
+          legend: ""
+        },
+        {
+          text: "Naval Facilities Command (NAVFAC)",
+          value: "http://www.navfac.navy.mil/",
+          tab_title: "Installations / Facilities",
+          legend: ""
+        },
+        {
+          text: "Navy Housing",
+          value: "http://www.cnic.navy.mil/ffr/housing.html",
+          tab_title: "Installations / Facilities",
+          legend: ""
+        }
       ],
       networks_and_computers_tab: [
-        { text: "Navy Enterprise Resource Management (N-ERP)", value: "http://www.erp.navy.mil/", tab_title: "Networks and Computers", legend: "" },
-        { text: "Navy Marine Corps Intranet (NMCI)", value: "https://homeport.navy.mil/home/", tab_title: "Networks and Computers", legend: " *" },
-        { text: "ONE-Net Public Site", value: "https://www.navifor.usff.navy.mil/ncts-yokosuka/", tab_title: "Networks and Computers", legend: "" },
-        { text: "ONE-Net Middle East Service Desk", value: "https://servicedesk.me.navy.mil/", tab_title: "Networks and Computers", legend: " †" },
-        { text: "ONE-Net Far East Service Desk", value: "https://servicedesk.fe.navy.mil/", tab_title: "Networks and Computers", legend: " †" },
-        { text: "ONE-Net European Union Service Desk", value: "https://servicedesk.eu.navy.mil/", tab_title: "Networks and Computers", legend: " †" }
+        {
+          text: "Navy Enterprise Resource Management (N-ERP)",
+          value: "http://www.erp.navy.mil/",
+          tab_title: "Networks and Computers",
+          legend: ""
+        },
+        {
+          text: "Navy Marine Corps Intranet (NMCI)",
+          value: "https://homeport.navy.mil/home/",
+          tab_title: "Networks and Computers",
+          legend: " *"
+        },
+        {
+          text: "ONE-Net Public Site",
+          value: "https://www.navifor.usff.navy.mil/ncts-yokosuka/",
+          tab_title: "Networks and Computers",
+          legend: ""
+        },
+        {
+          text: "ONE-Net Middle East Service Desk",
+          value: "https://servicedesk.me.navy.mil/",
+          tab_title: "Networks and Computers",
+          legend: " †"
+        },
+        {
+          text: "ONE-Net Far East Service Desk",
+          value: "https://servicedesk.fe.navy.mil/",
+          tab_title: "Networks and Computers",
+          legend: " †"
+        },
+        {
+          text: "ONE-Net European Union Service Desk",
+          value: "https://servicedesk.eu.navy.mil/",
+          tab_title: "Networks and Computers",
+          legend: " †"
+        }
       ],
       other_tab: [
-        { text: "Naval Inspector General - Report Fraud, Waste or Mismanagement", value: "http://www.secnav.navy.mil/ig/", tab_title: "Other", legend: "" },
-        { text: "Navy.mil", value: "http://www.navy.mil/", tab_title: "Other", legend: "" },
-        { text: "Navy Research Development and Acquisition (ASN RD&A)", value: "http://www.secnav.navy.mil/rda/Pages/default.aspx", tab_title: "Other", legend: "" },
-        { text: "NAVWAR PEO EIS", value: "https://www.navwar.navy.mil/peo-digital-home", tab_title: "Other", legend: "" },
-        { text: "NAVWAR PEO EIS - Sea Warrior Program", value: "https://www.navwar.navy.mil/peo-mln-portfolio", tab_title: "Other", legend: "" },
-        { text: "U.S. Fleet Forces Command (USFF)", value: "https://www.usff.navy.mil/", tab_title: "Other", legend: "" }
+        {
+          text: "Naval Inspector General - Report Fraud, Waste or Mismanagement",
+          value: "http://www.secnav.navy.mil/ig/",
+          tab_title: "Other",
+          legend: ""
+        },
+        {
+          text: "Navy.mil",
+          value: "http://www.navy.mil/",
+          tab_title: "Other",
+          legend: ""
+        },
+        {
+          text: "Navy Research Development and Acquisition (ASN RD&A)",
+          value: "http://www.secnav.navy.mil/rda/Pages/default.aspx",
+          tab_title: "Other",
+          legend: ""
+        },
+        {
+          text: "NAVWAR PEO EIS",
+          value: "https://www.navwar.navy.mil/peo-digital-home",
+          tab_title: "Other",
+          legend: ""
+        },
+        {
+          text: "NAVWAR PEO EIS - Sea Warrior Program",
+          value: "https://www.navwar.navy.mil/peo-mln-portfolio",
+          tab_title: "Other",
+          legend: ""
+        },
+        {
+          text: "U.S. Fleet Forces Command (USFF)",
+          value: "https://www.usff.navy.mil/",
+          tab_title: "Other",
+          legend: ""
+        }
       ],
       support_community_provider_links_search: [
-        { text: "Career Management System - Interactive Detailing (CMS-ID)", value: "https://www.cmsid.navy.mil/", tab_title: "Personnel/Manpower" },
-        { text: "Defense Travel System (DTS)", value: "https://dtsproweb.defensetravel.osd.mil/dts-app/pubsite/all/view/", tab_title: "Personnel/Manpower" },
-        { text: "DoN Travel and Purchase Card Program Office", value: "https://www.navsup.navy.mil/ccpmd", tab_title: "Personnel/Manpower" },
-        { text: "Fleet and Family Support Center", value: "https://www.cnic.navy.mil/ffr/family_readiness.html", tab_title: "Personnel/Manpower" },
-        { text: "Intelligence Community Wounded Warrior Program (ICWWP)", value: "http://www.dia.mil/Careers/Wounded-Warrior-Internship-Program/", tab_title: "Personnel/Manpower" },
-        { text: "MyNavy HR", value: "https://www.mynavyhr.navy.mil/", tab_title: "Personnel/Manpower" },
-        { text: "Navy Civilian Human Resources", value: "http://www.secnav.navy.mil/donhr", tab_title: "Personnel/Manpower" },
-        { text: "Navy Household Goods Help Desk", value: "https://www.navsup.navy.mil/household/", tab_title: "Personnel/Manpower" },
-        { text: "Navy Marine Corps Relief Society", value: "http://www.nmcrs.org/", tab_title: "Personnel/Manpower" },
-        { text: "Navy Standard Integrated Personnel System (NSIPS)", value: "https://nsipsprod.nmci.navy.mil/", tab_title: "Personnel/Manpower" },
-        { text: "MyNavy Career Center (MNCC)", value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/", tab_title: "Personnel/Manpower" },
+        {
+          text: "Career Management System - Interactive Detailing (CMS-ID)",
+          value: "https://www.cmsid.navy.mil/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "Defense Travel System (DTS)",
+          value: "https://dtsproweb.defensetravel.osd.mil/dts-app/pubsite/all/view/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "DoN Travel and Purchase Card Program Office",
+          value: "https://www.navsup.navy.mil/ccpmd",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "Fleet and Family Support Center",
+          value: "https://www.cnic.navy.mil/ffr/family_readiness.html",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "Intelligence Community Wounded Warrior Program (ICWWP)",
+          value: "http://www.dia.mil/Careers/Wounded-Warrior-Internship-Program/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "MyNavy HR",
+          value: "https://www.mynavyhr.navy.mil/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "Navy Civilian Human Resources",
+          value: "http://www.secnav.navy.mil/donhr",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "Navy Household Goods Help Desk",
+          value: "https://www.navsup.navy.mil/household/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "Navy Marine Corps Relief Society",
+          value: "http://www.nmcrs.org/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "Navy Standard Integrated Personnel System (NSIPS)",
+          value: "https://nsipsprod.nmci.navy.mil/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "MyNavy Career Center (MNCC)",
+          value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "MyNavy Portal (MNP)",
+          value: "https://my.navy.mil/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
+          text: "Combat System Operational Sequencing System (CSOSS)",
+          value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "CRYPTOGRAPHIC Products and Services",
+          value: "https://infosec.navy.mil/crypto",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "EOSS Feedback Requests",
+          value: "https://navlogtd.navy.mil/EossFeedbackWeb/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Fleet Cosal Feedback Request (FCFBR)",
+          value: "https://ds-itsmweb.dc3n.navy.mil/kinetic/DisplayPage?name=FleetCOSAL_Request",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Military Engineering Data Asset Locator System (MEDALS)",
+          value: "https://www.logisticsinformationservice.dla.mil/medals/Default.aspx",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Naval Safety Center",
+          value: "https://navalsafetycenter.navy.mil/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Navy Data Environment (NDE)",
+          value: "https://www.nde.navy.mil/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "NTCSS/OOMA Support Request",
+          value: "https://neitsm.dc3n.navy.mil/arsys",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Revised Alternative Dataflow Web (RADWeb)",
+          value: "https://radpac.cdmd.navy.mil/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Sailor 2.1",
+          value: "https://sailor.navy.mil/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Sailor to Engineer",
+          value: "https://help.phdnswc.nmci.navy.mil/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Access Ships' 3M Information System web site",
+          value: "https://oars.nslc.navy.mil/oars/docs/index.html",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Download the Ships' 3-M Manual (NAVSEA Instruction 4790.8D, 17 June 2021)",
+          value: "https://www.navsea.navy.mil/Resources/Instructions/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Download the Ships' 3M Manual Change/Correction Request form",
+          value: "/Documents/Public Documents/Ships 3-M_Manual_Change_Correction_Request.pdf",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "NAVWAR Technical Support",
+          value: "https://supportweb.sscno.nmci.navy.mil/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Technical Data Management Information System (TDMIS)",
+          value: "https://mercury.tdmis.navy.mil/",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "Technical Manual Deficiency Evaluation Report (TMDER)",
+          value: "https://nsdsa.dc3n.navy.mil/",
+          tab_title: "Equipment/Maintenance"
+        },
 
-        { text: "Combat System Operational Sequencing System (CSOSS)", value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx", tab_title: "Equipment/Maintenance" },
-        { text: "CRYPTOGRAPHIC Products and Services", value: "https://infosec.navy.mil/crypto", tab_title: "Equipment/Maintenance" },
-        { text: "EOSS Feedback Requests", value: "https://navlogtd.navy.mil/EossFeedbackWeb/", tab_title: "Equipment/Maintenance" },
-        { text: "Fleet Cosal Feedback Request (FCFBR)", value: "https://ds-itsmweb.dc3n.navy.mil/kinetic/DisplayPage?name=FleetCOSAL_Request", tab_title: "Equipment/Maintenance" },
-        { text: "Military Engineering Data Asset Locator System (MEDALS)", value: "https://www.logisticsinformationservice.dla.mil/medals/Default.aspx", tab_title: "Equipment/Maintenance" },
-        { text: "Naval Safety Center", value: "https://navalsafetycenter.navy.mil/", tab_title: "Equipment/Maintenance" },
-        { text: "Navy Data Environment (NDE)", value: "https://www.nde.navy.mil/", tab_title: "Equipment/Maintenance" },
-        { text: "NTCSS/OOMA Support Request", value: "https://neitsm.dc3n.navy.mil/arsys", tab_title: "Equipment/Maintenance" },
-        { text: "Revised Alternative Dataflow Web (RADWeb)", value: "https://radpac.cdmd.navy.mil/", tab_title: "Equipment/Maintenance" },
-        { text: "Sailor 2.1", value: "https://sailor.navy.mil/", tab_title: "Equipment/Maintenance" },
-        { text: "Sailor to Engineer", value: "https://help.phdnswc.nmci.navy.mil/", tab_title: "Equipment/Maintenance" },
-        { text: "Access Ships' 3M Information System web site", value: "https://oars.nslc.navy.mil/oars/docs/index.html", tab_title: "Equipment/Maintenance" },
-        { text: "Download the Ships' 3-M Manual (NAVSEA Instruction 4790.8D, 17 June 2021)", value: "https://www.navsea.navy.mil/Resources/Instructions/", tab_title: "Equipment/Maintenance" },
-        { text: "Download the Ships' 3M Manual Change/Correction Request form", value: "/Documents/Public Documents/Ships 3-M_Manual_Change_Correction_Request.pdf", tab_title: "Equipment/Maintenance" },
-        { text: "NAVWAR Technical Support", value: "https://supportweb.sscno.nmci.navy.mil/", tab_title: "Equipment/Maintenance" },
-        { text: "Technical Data Management Information System (TDMIS)", value: "https://mercury.tdmis.navy.mil/", tab_title: "Equipment/Maintenance" },
-        { text: "Technical Manual Deficiency Evaluation Report (TMDER)", value: "https://nsdsa.dc3n.navy.mil/", tab_title: "Equipment/Maintenance" },
+        {
+          text: "LogTool",
+          value: "http://logtool.net/",
+          tab_title: "Supply and Logistics"
+        },
+        {
+          text: "Naval Supply Systems Command",
+          value: "https://www.navsup.navy.mil/navsup",
+          tab_title: "Supply and Logistics"
+        },
+        {
+          text: "One-Touch",
+          value: "https://www.onetouch.navy.mil/",
+          tab_title: "Supply and Logistics"
+        },
+        {
+          text: "Priority Material Office - Integrated Supply Information System",
+          value: "https://pmohq.nmci.navy.mil/",
+          tab_title: "Supply and Logistics"
+        },
 
-        { text: "LogTool", value: "http://logtool.net/", tab_title: "Supply and Logistics" },
-        { text: "Naval Supply Systems Command", value: "https://www.navsup.navy.mil/navsup", tab_title: "Supply and Logistics" },
-        { text: "One-Touch", value: "https://www.onetouch.navy.mil/", tab_title: "Supply and Logistics" },
-        { text: "Priority Material Office - Integrated Supply Information System", value: "https://pmohq.nmci.navy.mil/", tab_title: "Supply and Logistics" },
+        {
+          text: "Defense Acquisition University (DAU)",
+          value: "https://www.dau.edu/",
+          tab_title: "Training and Education"
+        },
+        {
+          text: "MyNavy Portal",
+          value: "https://my.navy.mil/",
+          tab_title: "Training and Education"
+        },
+        {
+          text: "MyNavy HR",
+          value: "https://www.mynavyhr.navy.mil/",
+          tab_title: "Training and Education"
+        },
+        {
+          text: "Naval Air Warfare Center Training Systems Division (NAWCTSD)",
+          value: "http://www.navair.navy.mil/nawctsd/",
+          tab_title: "Training and Education"
+        },
+        {
+          text: "Naval Education and Training Command (NETC)",
+          value: "https://www.netc.navy.mil/",
+          tab_title: "Training and Education"
+        },
+        {
+          text: "Navy Doctrine Library System (NDLS)",
+          value: "https://ndls.nwdc.navy.mil/",
+          tab_title: "Training and Education"
+        },
+        {
+          text: "Navy Flying Hour Projection System (FHPS) Access Request",
+          value: "https://www.nslc.navsea.navy.mil/FHP/FHPS_Access_Request.pdf",
+          tab_title: "Training and Education"
+        },
+        {
+          text: "Navy Personnel Command (NPC)",
+          value: "http://www.npc.navy.mil/",
+          tab_title: "Training and Education"
+        },
 
-        { text: "Defense Acquisition University (DAU)", value: "https://www.dau.edu/", tab_title: "Training and Education" },
-        { text: "MyNavy Portal", value: "https://my.navy.mil/", tab_title: "Training and Education" },
-        { text: "MyNavy HR", value: "https://www.mynavyhr.navy.mil/", tab_title: "Training and Education" },
-        { text: "Naval Air Warfare Center Training Systems Division (NAWCTSD)", value: "http://www.navair.navy.mil/nawctsd/", tab_title: "Training and Education" },
-        { text: "Naval Education and Training Command (NETC)", value: "https://www.netc.navy.mil/", tab_title: "Training and Education" },
-        { text: "Navy Doctrine Library System (NDLS)", value: "https://ndls.nwdc.navy.mil/", tab_title: "Training and Education" },
-        { text: "Navy Flying Hour Projection System (FHPS) Access Request", value: "https://www.nslc.navsea.navy.mil/FHP/FHPS_Access_Request.pdf", tab_title: "Training and Education" },
-        { text: "Navy Personnel Command (NPC)", value: "http://www.npc.navy.mil/", tab_title: "Training and Education" },
+        {
+          text: "All Weapons Information System (AWIS)",
+          value: "https://awis.navair.navy.mil/awis/gateway/ncnvismodules.asp",
+          tab_title: "Ordnance"
+        },
+        {
+          text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.",
+          value: "mailto:LIDOLinfodesk@us.navy.mil",
+          tab_title: "Ordnance"
+        },
+        {
+          text: "Existing LIDOL users click here to access the site.",
+          value: "https://lidol.nmci.navy.mil/",
+          tab_title: "Ordnance"
+        },
+        {
+          text: "Naval Ordnance Maintenance Management Program (NOMMP)",
+          value: "https://awis.navair.navy.mil/redshirt/index.html",
+          tab_title: "Ordnance"
+        },
+        {
+          text: "Public NOSSA Website",
+          value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx",
+          tab_title: "Ordnance"
+        },
+        {
+          text: "Restricted NOSSA Website",
+          value: "https://nossa.dc3n.navy.mil/",
+          tab_title: "Ordnance"
+        },
+        {
+          text: "Navy Small Arms (SA) and Night Vision-Electro Opticals (NV-EO) Registry",
+          value: "https://midway.dc3n.navy.mil",
+          tab_title: "Ordnance"
+        },
 
-        { text: "All Weapons Information System (AWIS)", value: "https://awis.navair.navy.mil/awis/gateway/ncnvismodules.asp", tab_title: "Ordnance" },
-        { text: "New LIDOL users send a digitally signed email to LIDOL help desk to request access.", value: "mailto:LIDOLinfodesk@us.navy.mil", tab_title: "Ordnance" },
-        { text: "Existing LIDOL users click here to access the site.", value: "https://lidol.nmci.navy.mil/", tab_title: "Ordnance" },
-        { text: "Naval Ordnance Maintenance Management Program (NOMMP)", value: "https://awis.navair.navy.mil/redshirt/index.html", tab_title: "Ordnance" },
-        { text: "Public NOSSA Website", value: "http://www.navsea.navy.mil/Organization/NOSSA.aspx", tab_title: "Ordnance" },
-        { text: "Restricted NOSSA Website", value: "https://nossa.dc3n.navy.mil/", tab_title: "Ordnance" },
-        { text: "Navy Small Arms (SA) and Night Vision-Electro Opticals (NV-EO) Registry", value: "https://midway.dc3n.navy.mil", tab_title: "Ordnance" },
+        {
+          text: "Bureau of Medicine and Surgery (BUMED)",
+          value: "https://www.med.navy.mil/Pages/Default.aspx",
+          tab_title: "Medical"
+        },
+        {
+          text: "Medical Electronic Library",
+          value: "https://www.med.navy.mil/sites/nmcp/Dept/SitePages/Library/NMeL.aspx",
+          tab_title: "Medical"
+        },
+        {
+          text: "Naval Medical Logistics Command (NAVMEDLOGCOM)",
+          value: "http://www.med.navy.mil/sites/nmlc/",
+          tab_title: "Medical"
+        },
+        {
+          text: "TRICARE",
+          value: "https://www.tricare.mil/",
+          tab_title: "Medical"
+        },
 
-        { text: "Bureau of Medicine and Surgery (BUMED)", value: "https://www.med.navy.mil/Pages/Default.aspx", tab_title: "Medical" },
-        { text: "Medical Electronic Library", value: "https://www.med.navy.mil/sites/nmcp/Dept/SitePages/Library/NMeL.aspx", tab_title: "Medical" },
-        { text: "Naval Medical Logistics Command (NAVMEDLOGCOM)", value: "http://www.med.navy.mil/sites/nmlc/", tab_title: "Medical" },
-        { text: "TRICARE", value: "https://www.tricare.mil/", tab_title: "Medical" },
+        {
+          text: "Commander, Navy Installations (CNIC)",
+          value: "https://www.cnic.navy.mil/",
+          tab_title: "Installations/Facilities"
+        },
+        {
+          text: "Naval Facilities Command (NAVFAC)",
+          value: "http://www.navfac.navy.mil/",
+          tab_title: "Installations/Facilities"
+        },
+        {
+          text: "Navy Housing",
+          value: "http://www.cnic.navy.mil/ffr/housing.html",
+          tab_title: "Installations/Facilities"
+        },
 
-        { text: "Commander, Navy Installations (CNIC)", value: "https://www.cnic.navy.mil/", tab_title: "Installations/Facilities" },
-        { text: "Naval Facilities Command (NAVFAC)", value: "http://www.navfac.navy.mil/", tab_title: "Installations/Facilities" },
-        { text: "Navy Housing", value: "http://www.cnic.navy.mil/ffr/housing.html", tab_title: "Installations/Facilities" },
+        {
+          text: "Navy Enterprise Resource Management (N-ERP)",
+          value: "http://www.erp.navy.mil/",
+          tab_title: "Networks and Computers"
+        },
+        {
+          text: "Navy Marine Corps Intranet (NMCI)",
+          value: "https://homeport.navy.mil/home/",
+          tab_title: "Networks and Computers"
+        },
+        {
+          text: "ONE-Net Public Site",
+          value: "https://www.navifor.usff.navy.mil/ncts-yokosuka/",
+          tab_title: "Networks and Computers"
+        },
+        {
+          text: "ONE-Net Middle East Service Desk",
+          value: "https://servicedesk.me.navy.mil/",
+          tab_title: "Networks and Computers"
+        },
+        {
+          text: "ONE-Net Far East Service Desk",
+          value: "https://servicedesk.fe.navy.mil/",
+          tab_title: "Networks and Computers"
+        },
+        {
+          text: "ONE-Net European Union Service Desk",
+          value: "https://servicedesk.eu.navy.mil/",
+          tab_title: "Networks and Computers"
+        },
 
-        { text: "Navy Enterprise Resource Management (N-ERP)", value: "http://www.erp.navy.mil/", tab_title: "Networks and Computers" },
-        { text: "Navy Marine Corps Intranet (NMCI)", value: "https://homeport.navy.mil/home/", tab_title: "Networks and Computers" },
-        { text: "ONE-Net Public Site", value: "https://www.navifor.usff.navy.mil/ncts-yokosuka/", tab_title: "Networks and Computers" },
-        { text: "ONE-Net Middle East Service Desk", value: "https://servicedesk.me.navy.mil/", tab_title: "Networks and Computers" },
-        { text: "ONE-Net Far East Service Desk", value: "https://servicedesk.fe.navy.mil/", tab_title: "Networks and Computers" },
-        { text: "ONE-Net European Union Service Desk", value: "https://servicedesk.eu.navy.mil/", tab_title: "Networks and Computers" },
-
-        { text: "Naval Inspector General - Report Fraud, Waste or Mismanagement", value: "http://www.secnav.navy.mil/ig/", tab_title: "Other" },
-        { text: "Navy.mil", value: "http://www.navy.mil/", tab_title: "Other" },
-        { text: "Navy Research Development and Acquisition (ASN RD&A)", value: "http://www.secnav.navy.mil/rda/Pages/default.aspx", tab_title: "Other" },
-        { text: "NAVWAR PEO EIS", value: "https://www.navwar.navy.mil/peo-digital-home", tab_title: "Other" },
-        { text: "NAVWAR PEO EIS - Sea Warrior Program", value: "https://www.navwar.navy.mil/peo-mln-portfolio", tab_title: "Other" },
-        { text: "U.S. Fleet Forces Command (USFF)", value: "https://www.usff.navy.mil/", tab_title: "Other" }
+        {
+          text: "Naval Inspector General - Report Fraud, Waste or Mismanagement",
+          value: "http://www.secnav.navy.mil/ig/",
+          tab_title: "Other"
+        },
+        {
+          text: "Navy.mil",
+          value: "http://www.navy.mil/",
+          tab_title: "Other"
+        },
+        {
+          text: "Navy Research Development and Acquisition (ASN RD&A)",
+          value: "http://www.secnav.navy.mil/rda/Pages/default.aspx",
+          tab_title: "Other"
+        },
+        {
+          text: "NAVWAR PEO EIS",
+          value: "https://www.navwar.navy.mil/peo-digital-home",
+          tab_title: "Other"
+        },
+        {
+          text: "NAVWAR PEO EIS - Sea Warrior Program",
+          value: "https://www.navwar.navy.mil/peo-mln-portfolio",
+          tab_title: "Other"
+        },
+        {
+          text: "U.S. Fleet Forces Command (USFF)",
+          value: "https://www.usff.navy.mil/",
+          tab_title: "Other"
+        }
       ],
       tools: [
         { img_src: require("../assets/partnering.png"), img_height: "50", img_width: "50", title: "Partnering", link: "/service" },
@@ -967,8 +1567,12 @@ export default {
         { img_src: require("../assets/chat.png"), img_height: "50", img_width: "50", title: "Live Chat", link: "/redirectChat" }
       ],
       news_warning: [
-        { text: "The DoD is transitioning to one common authentication (logon) certificate on CACs called the Personal Identity Verification (PIV) Authentication." },
-        { text: "This will affect all NAVY 311 online resources requiring a CAC login." }
+        {
+          text: "The DoD is transitioning to one common authentication (logon) certificate on CACs called the Personal Identity Verification (PIV) Authentication."
+        },
+        {
+          text: "This will affect all NAVY 311 online resources requiring a CAC login."
+        }
       ],
       pictures: [
         { src: "https://res.cloudinary.com/engineering-com/image/upload/w_640,h_640,c_limit,q_auto,f_auto/china_us_navy_img01_nlfwxd.jpg" },
@@ -982,30 +1586,62 @@ export default {
       ],
       crisis_help_line: { img_src: "https://www.veteranscrisisline.net/Content/images/VeteransCrisisLineLogo.png", link: "https://www.veteranscrisisline.net/" },
       what_we_do_tab: [
-        { text: "Systems and equipment: (e.g., hull, mechanical and electrical, weapon systems, IT, technical data)." },
-        { text: "Quality of life: (e.g., medical and chaplain care)." },
-        { text: "Personnel: (e.g., career, manpower, training)." },
-        { text: "Supply and logistics: (e.g., requisition follow-ups, ordnance, food service, household goods)." },
-        { text: "Installations and facilities: (e.g., environmental, public works, community support)." }
+        {
+          text: "Systems and equipment: (e.g., hull, mechanical and electrical, weapon systems, IT, technical data)."
+        },
+        {
+          text: "Quality of life: (e.g., medical and chaplain care)."
+        },
+        {
+          text: "Personnel: (e.g., career, manpower, training)."
+        },
+        {
+          text: "Supply and logistics: (e.g., requisition follow-ups, ordnance, food service, household goods)."
+        },
+        {
+          text: "Installations and facilities: (e.g., environmental, public works, community support)."
+        }
       ],
       why_navy_311_tab: [
-        { text: "NAVY 311 is not a new service, but rather a new name for the Customer Relationship Management (CRM) component of the Navy's Distance Support (DS) capability.  As such, NAVY 311 simplifies help desk access and easily identifies this assistance from among the many other important Fleet Distance Support services." },
-        { text: "Many forward-thinking government organizations and municipalities are using centralized 3-1-1 call centers to cost-effectively expand citizen services and streamline operations.  In the same manner, NAVY 311 is focused on achieving Fleet customer service excellence through modern technology, timely feedback, and increased operational efficiency." }
+        {
+          text: "NAVY 311 is not a new service, but rather a new name for the Customer Relationship Management (CRM) component of the Navy's Distance Support (DS) capability.  As such, NAVY 311 simplifies help desk access and easily identifies this assistance from among the many other important Fleet Distance Support services."
+        },
+        {
+          text: "Many forward-thinking government organizations and municipalities are using centralized 3-1-1 call centers to cost-effectively expand citizen services and streamline operations.  In the same manner, NAVY 311 is focused on achieving Fleet customer service excellence through modern technology, timely feedback, and increased operational efficiency."
+        }
       ],
       our_service_to_sailors_tab: [
-        { text: "Have a question?  Then call NAVY 311.  It's that simple.  NAVY 311 is here to help Sailors perform their daily work and manage their Navy life." },
-        { text: "You can call us about maintenance, ship parts and/or repair, personnel or career matters, training, quality of life, facilities, medical support, ordnance, or any other non-emergency, non-tactical topic." },
-        { text: "The NAVY 311 service is available to Sailors and other Service members, military families, civilians, veterans, contractors, and the occasional inquisitive citizen." }
+        {
+          text: "Have a question?  Then call NAVY 311.  It's that simple.  NAVY 311 is here to help Sailors perform their daily work and manage their Navy life."
+        },
+        {
+          text: "You can call us about maintenance, ship parts and/or repair, personnel or career matters, training, quality of life, facilities, medical support, ordnance, or any other non-emergency, non-tactical topic."
+        },
+        {
+          text: "The NAVY 311 service is available to Sailors and other Service members, military families, civilians, veterans, contractors, and the occasional inquisitive citizen."
+        }
       ],
       benefits_of_navy_311_tab: [
-        { text: "Provides Fleet access to authoritative information and assistance in near real-time, in port and at sea, and whenever and wherever afloat units are operating.", bold_text: "Reactive Service Delivery:" },
-        { text: "Allows providers to push critical information to Fleet customers in anticipation of planned maintenance and/or operations.", bold_text: "Proactive Service Delivery:" },
-        { text: "Integrates data from transactional support systems across the Navy to give Fleet customers and program offices a broader view of recurring systemic issues so they can make improved resource decisions.", bold_text: "Predictive Analysis:" },
-        { text: "Enables decision makers to determine effectiveness of support community, identify requirements for resource reallocation, analyze return on investment (ROI), and other analyses.", bold_text: "Metrics:" },
-        { text: "Supports a collective, modernized approach to data collection and exchange, standards, reporting metrics, and interaction across individual Navy contact centers.", bold_text: "Call Center Optimization:" }
+        {
+          text: "Provides Fleet access to authoritative information and assistance in near real-time, in port and at sea, and whenever and wherever afloat units are operating.", bold_text: "Reactive Service Delivery:"
+        },
+        {
+          text: "Allows providers to push critical information to Fleet customers in anticipation of planned maintenance and/or operations.", bold_text: "Proactive Service Delivery:"
+        },
+        {
+          text: "Integrates data from transactional support systems across the Navy to give Fleet customers and program offices a broader view of recurring systemic issues so they can make improved resource decisions.", bold_text: "Predictive Analysis:"
+        },
+        {
+          text: "Enables decision makers to determine effectiveness of support community, identify requirements for resource reallocation, analyze return on investment (ROI), and other analyses.", bold_text: "Metrics:"
+        },
+        {
+          text: "Supports a collective, modernized approach to data collection and exchange, standards, reporting metrics, and interaction across individual Navy contact centers.", bold_text: "Call Center Optimization:"
+        }
       ],
       benefits_of_navy_311_description: [
-        { text: "NAVY 311 aims to provide an enterprise framework for proactive service delivery to the Fleet and past and predictive analysis to leadership for fact-based resource decisions. Some key benefits of NAVY 311 include:" }
+        {
+          text: "NAVY 311 aims to provide an enterprise framework for proactive service delivery to the Fleet and past and predictive analysis to leadership for fact-based resource decisions. Some key benefits of NAVY 311 include:"
+        }
       ]
     }
   }

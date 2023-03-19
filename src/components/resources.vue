@@ -585,7 +585,14 @@ export default {
           value: "https://www.mynavyhr.navy.mil/Support-Services/MyNavy-Career-Center/",
           tab_title: "Personnel/Manpower",
           legend: ""
+        },
+        {
+          text: "MyNavy Portal (MNP)",
+          value: " https://my.navy.mil/ ",
+          tab_title: "Personnel/Manpower",
+          legend: ""
         }
+
       ],
       equipment_maintenance_tab: [
         {
@@ -990,6 +997,11 @@ export default {
           tab_title: "Personnel/Manpower"
         },
         {
+          text: "MyNavy Portal (MNP)",
+          value: "https://my.navy.mil/",
+          tab_title: "Personnel/Manpower"
+        },
+        {
           text: "Combat System Operational Sequencing System (CSOSS)",
           value: "https://navlogtd.navy.mil/ossfb/CSOSS/CSOSSDefault.aspx",
           tab_title: "Equipment/Maintenance"
@@ -1133,6 +1145,11 @@ export default {
         {
           text: "Navy Personnel Command (NPC)",
           value: "http://www.npc.navy.mil/",
+          tab_title: "Training and Education"
+        },
+        {
+          text: "MyNavy Portal (MNP)",
+          value: "https://my.navy.mil/",
           tab_title: "Training and Education"
         },
         {
