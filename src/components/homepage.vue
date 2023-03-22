@@ -910,8 +910,14 @@ export default {
           legend: " *"
         },
         {
-          text: "NTCSS/OOMA Support Request",
-          value: "https://neitsm.dc3n.navy.mil/arsys",
+          text: "NTCSS Support Request",
+          value: "https://nesd-dwp.onbmc.mil/dwp/app/#/itemprofile/11603",
+          tab_title: "Equipment/Maintenance",
+          legend: " *"
+        },
+        {
+          text: "OOMA Support Request",
+          value: "https://nesd-dwp.onbmc.mil/dwp/app/#/itemprofile/12101",
           tab_title: "Equipment/Maintenance",
           legend: " *"
         },
