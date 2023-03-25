@@ -1351,7 +1351,7 @@ export default {
         },
         {
           text: "Download the Ships' 3M Manual Change/Correction Request form",
-          value: "/Documents/Public Documents/Ships 3-M_Manual_Change_Correction_Request.pdf",
+          value: "/Documents/Ships 3-M_Manual_Change_Correction_Request.pdf",
           tab_title: "Equipment/Maintenance"
         },
         {
