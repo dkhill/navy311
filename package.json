@@ -6,7 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint",
-    "deploy": "rsync -arvz -e 'ssh -p 23790' --progress --delete /home/dkhill/Programming/Vue-JS/navy311/dist/* farwestw@fwcc4u.com:/home/farwestw/public_html/navy311",
+    "deployFWCC": "rsync -arvz -e 'ssh -p 23790' --progress --delete /home/dkhill/Programming/Vue-JS/navy311/dist/* farwestw@fwcc4u.com:/home/farwestw/public_html/navy311",
     "deployAWS": "aws --profile navy311aws_u --region us-east-1 s3 sync ./dist s3://navy311aws --delete"
   },
   "dependencies": {

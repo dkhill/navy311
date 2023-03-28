@@ -1,9 +1,10 @@
 ## Description
 ```
 This is the static public facing Navy 311 Website implemented using Vue and Vuetify and hosted on a DC2HS S3 bucket.
-```
 
-## Project setup
+Note:```
+
+## Project setup (Pulling down the Node JS Modules)
 ```
 npm install
 ```
