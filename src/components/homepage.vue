@@ -112,7 +112,7 @@
                       <span><img class="tool_icons" alt="" src="../assets/fahtom_circle.png" style="margin-left: -4px; margin-top: 7px" width="60" height="47"></span>
                       <div style="padding-left: 5%;">Flank Speed Support</div>
                     </v-list-item>
-                    <v-list-item id="service_link_support_request" v-on:click="visit('https://neitsm.dc3n.navy.mil/arsys')" class="list_item_style" role="option" tabindex="0">
+                    <v-list-item id="service_link_support_request" v-on:click="visit('https://neitsm.dc3n.navy.mil/')" class="list_item_style" role="option" tabindex="0">
                       <span><img class="tool_icons" alt="" src="../assets/navwar.png" style="margin-top: 7px;" width="50" height="50"></span>
                       <div style="padding-left: 7%;">C4I Support Request</div>
                     </v-list-item>
@@ -428,7 +428,7 @@
                   <span><img class="tool_icons" alt="" src="../assets/fahtom_circle.png" style="margin-left: -4px; margin-top: 7px" width="58" height="45"></span>
                   <div style="padding-left: 9%;">Flank Speed Support</div>
                 </v-list-item>
-                <v-list-item id="service_link_support_request" v-on:click="visit('https://neitsm.dc3n.navy.mil/arsys')" class="list_item_style" role="option" tabindex="0">
+                <v-list-item id="service_link_support_request" v-on:click="visit('https://neitsm.dc3n.navy.mil/')" class="list_item_style" role="option" tabindex="0">
                   <span><img class="tool_icons" alt="" src="../assets/navwar.png" style="margin-top: 7px;" width="50" height="50"></span>
                   <div style="padding-left: 10%;">C4I Support Request</div>
                 </v-list-item>
@@ -957,7 +957,7 @@ export default {
         },
         {
           text: "NAVWAR Technical Support",
-          value: "https://supportweb.sscno.nmci.navy.mil/",
+          value: "https://neitsm.dc3n.navy.mil/",
           tab_title: "Equipment/Maintenance",
           legend: " *"
         },
@@ -1320,8 +1320,13 @@ export default {
           tab_title: "Equipment/Maintenance"
         },
         {
-          text: "NTCSS/OOMA Support Request",
-          value: "https://neitsm.dc3n.navy.mil/arsys",
+          text: "NTCSS Support Request",
+          value: "https://nesd-dwp.onbmc.mil/dwp/app/#/itemprofile/11603",
+          tab_title: "Equipment/Maintenance"
+        },
+        {
+          text: "OOMA Support Request",
+          value: "https://nesd-dwp.onbmc.mil/dwp/app/#/itemprofile/12101",
           tab_title: "Equipment/Maintenance"
         },
         {
@@ -1356,7 +1361,7 @@ export default {
         },
         {
           text: "NAVWAR Technical Support",
-          value: "https://supportweb.sscno.nmci.navy.mil/",
+          value: "https://neitsm.dc3n.navy.mil/",
           tab_title: "Equipment/Maintenance"
         },
         {

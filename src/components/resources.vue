@@ -686,7 +686,7 @@ export default {
         },
         {
           text: "NAVWAR Technical Support",
-          value: "https://supportweb.sscno.nmci.navy.mil/",
+          value: "https://neitsm.dc3n.navy.mil/",
           tab_title: "Equipment/Maintenance",
           legend: " *"
         },
@@ -1084,7 +1084,7 @@ export default {
         },
         {
           text: "NAVWAR Technical Support",
-          value: "https://supportweb.sscno.nmci.navy.mil/",
+          value: "https://neitsm.dc3n.navy.mil/",
           tab_title: "Equipment/Maintenance"
         },
         {
